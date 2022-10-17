@@ -1,0 +1,104 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+# - intent: thanks
+#   examples: |
+#   - thanks
+#   - thank you
+#   - OK
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: exam_details #scope
+  examples: |
+    -what are the jobs availible?
+    -details about the exam?
+- intent: resources
+  examples: |
+    -where are the resources
+    -resources
+    -any study material?
+    -study material
+
+- intent: age_eligibility
+  examples: |
+    -what's the age limit
+    -what is the age limit?
+    -age limit for the exams
+    -age limit for the exam
+
+- intent: edu_eligibility
+  examples: |
+    -degree needed for the job?
+    -educational qualification?
+
+- intent: exam_syllabus
+  examples: |
+    -what is the syllabus for exam?
+    -exam syllabus?
+
+
+- intent: official_pages
+  examples: |
+    - can i register for exam?
+    -direct me to official page
+    -official page
+    -official page link
+- intent: exam_duration
+  examples: |
+    -what is the exam duration?
+    -how much time is alloted for each paper
+    -exam time duration
+    
+
+
+
+- intent: previous_year_paper
+  examples: |
+    -where can i get the previous year papers?
+    -previous year papers
+

@@ -1,0 +1,102 @@
+version: "3.1"
+
+stories:
+
+- story:  path1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: exam_details
+  - action: utter_about_the_exam
+  - intent: age_eligibility
+  - action: utter_age_limit
+  
+  - intent: official_pages
+  - action: utter_official_website_links
+  
+  - intent: edu_eligibility
+  - action: utter_qualification
+  - intent: exam_syllabus
+  - action: utter_exam_syllabus
+  - intent: resources
+  - action: utter_resources
+  - intent: exam_duration
+  - action: utter_exam_duaration
+  - intent: previous_year_paper
+  - action: utter_papers
+
+
+- story:  path2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: age_eligibility
+  - action: utter_age_limit
+  - intent: edu_eligibility
+  - action: utter_qualification
+  - intent: exam_syllabus
+  - action: utter_exam_syllabus
+  - intent: exam_duration
+  - action: utter_exam_duaration
+  - intent: resources
+  - action: utter_resources
+  - intent: exam_details
+  - action: utter_about_the_exam
+  - intent: official_pages
+  - action: utter_official_website_links
+  - intent: previous_year_paper
+  - action: utter_papers
+
+  
+- story:  path3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: age_eligibility
+  - action: utter_age_limit
+  - intent: exam_details
+  - action: utter_about_the_exam
+  - intent: edu_eligibility
+  - action: utter_qualification
+  - intent: resources
+  - action: utter_resources
+  - intent: exam_syllabus
+  - action: utter_exam_syllabus
+  - intent: exam_duration
+  - action: utter_exam_duaration
+  - intent: previous_year_paper
+  - action: utter_papers
+  - intent: official_pages
+  - action: utter_official_website_links
+
+
+- story:  path4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: exam_details
+  - action: utter_about_the_exam
+  - intent: exam_syllabus
+  - action: utter_exam_syllabus
+  - intent: age_eligibility
+  - action: utter_age_limit
+  - intent: edu_eligibility
+  - action: utter_qualification
+  - intent: previous_year_paper
+  - action: utter_papers
+  - intent: official_pages
+  - action: utter_official_website_links
+  - intent: exam_duration
+  - action: utter_exam_duaration
+  - intent: resources
+  - action: utter_resources
+
+- story: say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot

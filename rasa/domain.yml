@@ -1,0 +1,118 @@
+version: "3.1"
+
+intents:
+  - exam_details
+  - resources
+  
+  - age_eligibility
+  - edu_eligibility
+  - greet
+  - goodbye
+  - bot_challenge
+  - thanks
+  - exam_syllabus
+  - official_pages
+  - exam_duration
+  - previous_year_paper
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_age_limit:
+  - text: "Age limit for upsc is 42 years, maximum number of attempts is unlimited, Minimum age 21 years. 
+  Age limit for ssc cgl is between 40 years to 45 years depending on your category, number of attempts are unlimited. 
+  Age limit for banking exams 40 years for officer and clerk posts in central banks through ibps, number of 
+  attempts are unlimited. Age limit for SBI clerk and officer post is ranges between 40 to 45 years, number of 
+  attempts are unlimited. Age limit for Railway group a or railway officers is 40 to 42 years depending on the exam. 
+  Age limit for IRPS is 42 years. Age limit for IRAS is 40 years. Age limit for IRTS is 42 years. Age limit for IRMS 
+  railway officer is 35 years. Age limit for railways group C and Group D exam is to 40 to 48 years depending 
+  on educational qualifications and category. Age limit for railways group A exam is 42 years."
+
+  utter_qualification:
+  - text: "Minimum qualification for UPSC exam candidate is he must hold a degree from Government 
+  recognised Universities or possess an equivalent qualification.
+To apply for the SSC CGL Exam, the candidate must be a Graduate from a recognised 
+University/ Institution. Bachelor's Degree in any subject from a recognized University.
+You must have a graduation degree in any discipline from a recognised university or 
+any equivalent qualification recognised by the central government to apply for the IBPS PO exam. For SBI PO the
+Educational Qualification is Graduation or any equivalent degree.
+For RRB Group D the minimum education qualification for candidates applying to the 
+technical departments that is Civil Engineering, Mechanical, Electrical and Signal & 
+Telecom departments) and catering wing of Railways will be Class 10 pass plus National 
+Apprenticeship Certificate (NAC) granted by National Council for Vocational Training or Class 10 pass plus ITI.
+For RRB NTPC the Educational Qualification for undergraduate posts are candidates must have passed Class 12 and
+for graduate posts, candidates must have passed graduation.
+RRB JE's Educational Qualification for JE Post is An applicant must have three years 
+Diploma in Civil Engineering/Mechanical/ Production/ Automobile / Electrical/ Electronics/ 
+Instrumentation & Control Engineering/ Control/ Tools & Machining/ Tools & Die Making/ Computer 
+Science/ Computer Engineering or B.Sc in Civil Engineering from a Recognized University/Institute.
+For DMS Applicants need to complete a three-year Diploma in Engineering from any govt. recognized university or equivalent.
+JE (IT) Candidates must have PGDCA / B.Sc. (Computer Science)/ BCA/ B.Tech. 
+(Information Technology)/ B.Tech. (Computer Science)/ DOEACC B level course of three years duration or equivalent.
+CMA candidates should have Degree in Science with Physics and Chemistry with a minimum of 55 per cent marks
+RRB ALP candidate must have passed Class 10/SSLC & ITI/Course Completed Act Apprentices or Diploma/Degree in Engineering.
+To atttend Technician exams candidate should have Completed Class 10/SSLC plus ITI/ 
+Course Completed Act Apprentices or 10+2 with Physics and Maths or Diploma in Engineering."
+
+  utter_exam_syllabus:
+  - text: "RRB Candidates must have studied either Economics/Statistics/Mathematics as a compulsory or as an elective subject.
+UPSC candidates must have studied General Studies, Essay, English, and Indian Languages.
+SSC CGL Candidates needed to study General intelligence and reasoning, General Awareness, Quantitative Aptitude and English Comprehension.
+Banking Exam candidates needed to study English Language, Reasoning Ability, Quantitative Aptitude, Computer Knowledge and General Awareness.
+"
+
+  utter_exam_duaration:
+  - text: "For RRB NTPC 1st Stage & 2nd Stage: 90 minutes 
+  (120 minutes for PwBD candidates accompanied by the scribe).
+For UPSC the PwBD candidates in the category of blindness, locomotor disability (both arms affected-BA) and cerebral 
+palsy are allowed Compensatory Time of twenty minutes per hour of the examination.
+The duration of the test for the SSC CGL exam will be 60 minutes (1 hour) 
+and 80 minutes for the candidates belonging to scribes.
+For IBPS and SBI exams candidates who use a scribe shall be eligible for compensatory 
+time of 20 minutes or otherwise advised for every hour of the examination."
+
+  utter_papers:
+  - text: "Previous papers for all the exams upsc, ssc cgl, banking and 
+  railways is in this link https://drive.google.com/drive/folders/1Pq-D3V03pkpLIszdDvT8qaHBRtTKFDXz?usp=sharing. "
+
+
+
+  utter_welcome:
+  - text: "Bye"
+
+  utter_resources:
+  - text: "Free course for UPSC https://byjusexamprep.com/events/must-read-books-to-ace-upsc-cse-01-oct-2022-session?utm_source=Google&utm_medium=CPC&utm_campaign=IAS_CX_Workshop_BEP_Generic_Exact_India_Oct1st_2022&utm_adgroup=Generic&utm_term=free%20preparation%20for%20upsc%20coaching&utm_network=g&utm_matchtype=e&utm_device=c&utm_placement=&utm_content=623785317497&utm_Adposition=&utm_location=9040224&utm_Sitelink=&utm_Audience=kwd-1774938704763&utm_Promotion=&utm_Price=
+Free courses for SSC cgl https://www.classcentral.com/subject/ssc-cgl
+Free courses for Banking https://iikdonline.in/free-courses/
+Free courses for Banking https://www.classcentral.com/subject/bank-exams"
+
+  utter_about_the_exam:
+  - text: "UPSC Exam phases are Preliminary Exam and Mains Exam
+The SSC CGL exam will be conducted in two phases namely SSC CGL Tier-I and SSC CGL Tier-II.
+There are three stages in the IBPS and SBI PO selection process 
+and that are Preliminary Examination. Mains Examination. Interview.
+RRB NTPC exam phases are 1st Stage Computer Based Test (CBT), 2nd Stage Computer Based 
+Test (CBT), Typing Skill Test/Computer Based Aptitude Test, Document Verification/Medical Examination. We get IAS, IPS, IRS and high collar jobs by clearing the UPSC civils examination, 
+  for all the jobs visit https://www.upsc.gov.in/sites/default/files/Notif-CSP-22-engl-020222F.pdf. 
+  The list of jobs/posts/officers for are in this file https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/notice_CGLE_23122021.pdf. 
+  By attempting IBPS PO you can get probationary officers and management trainees in central government jobs. By attempting IBPS clerk you can get 
+  clerk jobs in central government jobs. By writing sbi po candidate can get officer job in SBI. By attempting SBI clerk exam candidate can become 
+  clerk in SBI bank. By attempting rrb group c exam you will get jobs like ALP, technician etc. 
+  By attempting rrc/railways d exam candidate can get jobs like goods guard and other clerk posts."
+
+  utter_official_website_links:
+  - text: "Official website link for upsc civils examination is https://www.upsc.gov.in/. 
+  Official website link for ssc cgl is https://www.ssc.nic.in/. Official website link for ibps is  https://www.ibps.in/.  
+  official website link for sbi is https://sbi.co.in/web/careers/current-openings. 
+  Official website link for railways https://indianrailways.gov.in/railwayboard/. "
+  
+  utter_iamabot:
+  - text: "yes I am a bot"
+
+  utter_goodbye:
+  - text: "have a great day,good luck for your exam"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

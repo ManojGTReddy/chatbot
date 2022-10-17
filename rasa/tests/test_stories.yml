@@ -1,0 +1,203 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+
+- story: say goodbye
+  steps:
+  - user: |
+      bye!
+    intent: goodbye
+  - action: utter_goodbye
+- story: bot challenge
+  steps:
+  - user: |
+      are you a bot?
+    intent: bot_challenge
+  - action: utter_iamabot
+
+- story: path1
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      details about the exam?
+    intent: exam_details
+  - action: utter_about_the_exam
+  - user: |
+      what is the age limit?
+    intent: age_eligibility
+  - action: utter_age_limit
+  - user: |
+      can i register for exam?
+    intent: official_pages
+  - action: utter_official_website_links
+  - user: |
+      educational qualification?
+    intent: edu_eligibility
+  - action: utter_qualification
+  - user: |
+      what is the syllabus for exam?
+    intent: exam_syllabus
+  - action: utter_exam_syllabus
+  - user: |
+      any study material?
+    intent: resources
+  - action: utter_resources
+  - user: |
+      what is the exam duration?
+    intent: exam_duration
+  - action: utter_exam_duaration
+  - user: |
+      previous year papers
+    intent: previous_year_paper
+  - action: utter_papers 
+
+  
+
+
+
+  - story: path2
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      what is the age limit?
+    intent: age_eligibility
+  - action: utter_age_limit
+  - user: |
+      educational qualification?
+    intent: edu_eligibility
+  - action: utter_qualification
+  - user: |
+      what is the syllabus for exam?
+    intent: exam_syllabus
+  - action: utter_exam_syllabus
+  - user: |
+      any study material?
+    intent: resources
+  - action: utter_resources
+  - user: |
+      what is the exam duration?
+    intent: exam_duration
+  - action: utter_exam_duaration
+  - user: |
+      what are the jobs availible?
+    intent: exam_details
+  - action: utter_about_the_exam
+
+  - user: |
+      where can i register for exam?
+    intent: official_pages
+  - action: utter_official_website_links
+  - user: |
+      previous year papers
+    intent: previous_year_paper
+  - action: utter_papers
+  
+
+- story: path3
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      what is the age limit?
+    intent: age_eligibility
+  - action: utter_age_limit
+  - user: |
+      what are the jobs availible?
+    intent: exam_details
+  - action: utter_about_the_exam
+  - user: |
+      educational qualification?
+    intent: edu_eligibility
+  - action: utter_qualification
+  
+
+  - user: |
+      exam syllabus?
+    intent: exam_syllabus
+  - action: utter_exam_syllabus
+  - user: |
+      what is the exam duration?
+    intent: exam_duration
+  - action: utter_exam_duaration
+
+  - user: |
+      previous year papers
+    intent: previous_year_paper
+  - action: utter_papers
+  - user: |
+      any study material?
+    intent: resources
+  - action: utter_resources
+
+  
+  - user: |
+      what is the syllabus for exam?
+    intent: exam_syllabus
+  - action: utter_exam_syllabus
+  
+  - user: |
+      direct me to official page?
+    intent: official_pages
+  - action: utter_official_website_links
+  
+  
+
+
+
+
+
+- story: path4
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      what are the jobs availible?
+    intent: exam_details
+  - action: utter_about_the_exam
+
+  - user: |
+      exam syllabus?
+    intent: exam_syllabus
+  - action: utter_exam_syllabus
+  
+
+  - user: |
+      what is the age limit?
+    intent: age_eligibility
+  - action: utter_age_limit
+  - user: |
+      educational qualification?
+    intent: edu_eligibility
+  - action: utter_qualification
+  - user: |
+      what is the syllabus for exam?
+    intent: exam_syllabus
+  - action: utter_exam_syllabus
+  - user: |
+      previous year papers
+    intent: previous_year_paper
+  - action: utter_papers
+  - user: |
+      direct me to official page?
+    intent: official_pages
+  - action: utter_official_website_links
+
+  - user: |
+      what is the exam duration?
+    intent: exam_duration
+  - action: utter_exam_duaration
+  - user: |
+      any study material?
+    intent: resources
+  - action: utter_resources
